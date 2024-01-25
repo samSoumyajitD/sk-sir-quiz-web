@@ -1,0 +1,37 @@
+
+@import url(https://db.onlinewebfonts.com/c/03af38e6d90add293d43f1ef74ce755f?family=Adieu+Regular);
+@import url(https://db.onlinewebfonts.com/c/03af38e6d90add293d43f1ef74ce755f?family=Adieu+Bold);
+
+.slide {
+    opacity: 0;
+    transition: all 1000ms linear;
+    transform: translate3d(200px, 0px, 0px);
+  }
+  
+  .hasSlid {
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+  }
+  
+  .padding-enlarge {
+    transition: padding-top 0.15s ease-in-out, padding-bottom 0.15s ease-in-out;
+  }
+  
+  .padding-enlarge:hover {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .rules-head{
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    gap: 1rem; 
+   padding: 1.5rem 20% 0 20%;
+    color: #333;
+    font-family: "Adieu Bold";
+    letter-spacing: 0.1em; 
+
+  }
+  
